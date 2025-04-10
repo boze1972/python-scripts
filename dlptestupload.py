@@ -8,12 +8,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Set up paths
-FOLDER_PATH = "path/to/your/folder"  # Change this
-FILENAME = "yourfile.pdf"            # Change this
+FOLDER_PATH = "C:\Users\fergu\Downloads\dlp"
+FILENAME = "sample-data.pdf"
 FILE_PATH = os.path.join(FOLDER_PATH, FILENAME)
 
 # Path to ChromeDriver (update this path if necessary)
-CHROME_DRIVER_PATH = "/path/to/chromedriver"
+CHROME_DRIVER_PATH = "C:\Users\fergu\AppData\Local\Programs\Python\Python312\chromedriver_win32"
 
 # Start Chrome
 options = webdriver.ChromeOptions()
